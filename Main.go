@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf(" and I would be %v years old. \n", 33*365/687)
 	fmt.Printf("My weight on the surface of %v is %v lbs. \n", "Earth", 220.0)
 	fmt.Printf("%-15v $%4v\n", "SpaceX", 94)
-	fmt.Printf("%-15v $%4v\n", "Virgin Galatic", 100)
+	fmt.Printf("%-15v $%4v\n", "Blue Origin", 100)
 	// How long does it take to get to mars?
 	fmt.Println(distance/lightSpeed, "Seconds")
 	distance = 401000000
@@ -22,5 +22,5 @@ func main() {
 	fmt.Printf("%v Seconds\n", distance/lightSpeed)
 	distance = 96500000
 	fmt.Printf("It would take SpaceX %v Hours to reach mars\n", distance/spaceXSpeed)
-	
+
 }
